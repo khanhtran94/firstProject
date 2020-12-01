@@ -19,6 +19,10 @@ class ViewController: UIViewController {
     @IBAction func changeColor(_ sender: Any) {
         self.view.backgroundColor = UIColor.red;
     }
+   
+    @IBAction func revertButton(_ sender: Any) {
+        self.view.backgroundColor = UIColor.clear
+    }
     
 }
 
