@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var screenIsRed = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -22,6 +24,17 @@ class ViewController: UIViewController {
    
     @IBAction func revertButton(_ sender: Any) {
         self.view.backgroundColor = UIColor.clear
+    }
+    
+    
+    @IBAction func changeColorBackground(_ sender: Any) {
+        if !screenIsRed {
+            self.view.backgroundColor = UIColor.red
+            screenIsRed = true
+        } else{
+            self.view.backgroundColor = UIColor.blue
+            screenIsRed = false
+        }
     }
     
 }
