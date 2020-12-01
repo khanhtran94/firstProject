@@ -23,7 +23,7 @@
                                     <action selector="changeColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="enV-Di-Cdg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EY5-kb-No1">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EY5-kb-No1">
                                 <rect key="frame" x="310" y="54" width="94" height="30"/>
                                 <state key="normal" title="Revert button"/>
                                 <connections>
@@ -35,7 +35,8 @@
                         <constraints>
                             <constraint firstItem="FKK-fq-4Op" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Hh4-MJ-M06"/>
                             <constraint firstItem="FKK-fq-4Op" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="LA3-iF-Sp8"/>
-                            <constraint firstItem="EY5-kb-No1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="dzN-X9-Pcx"/>
+                            <constraint firstItem="EY5-kb-No1" firstAttribute="baseline" secondItem="FKK-fq-4Op" secondAttribute="baseline" id="M39-Lm-Lda"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EY5-kb-No1" secondAttribute="trailing" constant="10" id="TlS-Ob-KEQ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
