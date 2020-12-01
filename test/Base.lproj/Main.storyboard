@@ -33,7 +33,9 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="EY5-kb-No1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="8tF-zp-Hxz"/>
                             <constraint firstItem="FKK-fq-4Op" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Hh4-MJ-M06"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EY5-kb-No1" secondAttribute="trailing" constant="10" id="Ky3-Rs-prQ"/>
                             <constraint firstItem="FKK-fq-4Op" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="LA3-iF-Sp8"/>
                             <constraint firstItem="EY5-kb-No1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="Ry5-VA-5Ba"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EY5-kb-No1" secondAttribute="trailing" constant="10" id="p81-np-cI6"/>
