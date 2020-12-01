@@ -30,13 +30,22 @@
                                     <action selector="revertButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MA7-pO-PhI"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vqb-Le-edw">
+                                <rect key="frame" x="142" y="420" width="130" height="30"/>
+                                <state key="normal" title="ChangeBackgound"/>
+                                <connections>
+                                    <action selector="changeColorBackground:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LjG-Pq-M71"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="Vqb-Le-edw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="376" id="9cr-jg-yC9"/>
                             <constraint firstItem="FKK-fq-4Op" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Hh4-MJ-M06"/>
                             <constraint firstItem="FKK-fq-4Op" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="LA3-iF-Sp8"/>
                             <constraint firstItem="EY5-kb-No1" firstAttribute="baseline" secondItem="FKK-fq-4Op" secondAttribute="baseline" id="M39-Lm-Lda"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EY5-kb-No1" secondAttribute="trailing" constant="10" id="TlS-Ob-KEQ"/>
+                            <constraint firstItem="Vqb-Le-edw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jRr-eQ-iYb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
