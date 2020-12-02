@@ -30,11 +30,10 @@ class ViewController: UIViewController {
     @IBAction func changeColorBackground(_ sender: Any) {
         if !screenIsRed {
             self.view.backgroundColor = UIColor.red
-            screenIsRed = true
         } else{
             self.view.backgroundColor = UIColor.blue
-            screenIsRed = false
         }
+        screenIsRed = !screenIsRed
     }
     
 }
