@@ -22,7 +22,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nye-8J-Vqf">
-                                <rect key="frame" x="141" y="427" width="132" height="42"/>
+                                <rect key="frame" x="141" y="407" width="132" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Convert to F">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -32,12 +32,19 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Answer in Celcius" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MJL-nX-5Ew">
-                                <rect key="frame" x="129.5" y="541" width="155" height="45"/>
+                                <rect key="frame" x="129.5" y="499" width="155" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="aTf-BI-uQK"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Count convert" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pby-ge-avK">
+                                <rect key="frame" x="34" y="57" width="130" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -47,14 +54,15 @@
                             <constraint firstItem="3tG-07-a7T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="126" id="HAM-L7-u1U"/>
                             <constraint firstItem="MJL-nX-5Ew" firstAttribute="centerX" secondItem="Nye-8J-Vqf" secondAttribute="centerX" id="IYc-Lr-hPh"/>
                             <constraint firstItem="Nye-8J-Vqf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ta4-Ya-v7w"/>
-                            <constraint firstItem="Nye-8J-Vqf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="crk-AB-wGF"/>
+                            <constraint firstItem="Nye-8J-Vqf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-20" id="crk-AB-wGF"/>
                             <constraint firstItem="3tG-07-a7T" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="290" id="qDb-9K-SGC"/>
-                            <constraint firstItem="MJL-nX-5Ew" firstAttribute="top" secondItem="Nye-8J-Vqf" secondAttribute="bottom" constant="72" id="qmI-sd-4FK"/>
+                            <constraint firstItem="MJL-nX-5Ew" firstAttribute="top" secondItem="Nye-8J-Vqf" secondAttribute="bottom" constant="50" id="qmI-sd-4FK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="answerConvert" destination="MJL-nX-5Ew" id="ymP-4l-H5W"/>
+                        <outlet property="count" destination="pby-ge-avK" id="sUV-rv-JEo"/>
                         <outlet property="entryTempTextField" destination="3tG-07-a7T" id="25o-x3-di4"/>
                     </connections>
                 </viewController>
