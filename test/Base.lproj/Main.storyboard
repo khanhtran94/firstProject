@@ -27,6 +27,9 @@
                                 <state key="normal" title="Convert to F">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="convertTempButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ujq-Lh-YPe"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Answer in Celcius" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MJL-nX-5Ew">
                                 <rect key="frame" x="129.5" y="541" width="155" height="45"/>
@@ -50,6 +53,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="answerConvert" destination="MJL-nX-5Ew" id="ymP-4l-H5W"/>
+                        <outlet property="entryTempTextField" destination="3tG-07-a7T" id="25o-x3-di4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
